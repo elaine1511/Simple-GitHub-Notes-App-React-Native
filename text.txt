@@ -1,0 +1,15 @@
+Requirements:
+- Use context to avoid passing the data around
+- Persist data using AsyncStorage
+- Expire the persited data after a mont 
+
+1. Context:
+- Create context file
+- use Reducer 
+- Provider
+- UseContext
+
+2. Persist data:
+- store data: {key: string} ->JSON.stringify
+- retrieve data: key->string->object: JSON.parse
+- 
